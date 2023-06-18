@@ -39,7 +39,7 @@
         over to the outgoing link
     * Control plane functions (processor)
         - Implement the routing protocols
-        - maintain the routing tables
+        - Maintain the routing tables
         - Compute the forwarding table
         - Implemented in software in the routing processor, or by a remote
         controller in the case of SDN
@@ -61,7 +61,7 @@
         - Packet classification: Performing lookup based on destination or
         source IP addresses, port, and other criteria
     * Switching: Transfers the packet from the input link to the output link
-        - Modern routers use corssbar switches for this task
+        - Modern routers use crossbar switches for this task
         - Scheduling the switch is difficult because multiple inputs may want
         to send packets to the same output
     * Queueing: After the packet has been switched to a specific output, it
@@ -208,7 +208,7 @@ across the fabric in parallel?
         - Important element of any lookup opration is how fast it is done
         (lookup speed) and a large part of the cost for computation is accessing
         memory
-        - Unstable routing protocol may adversely impact the udpate time in the
+        - Unstable routing protocol may adversely impact the update time in the
         table to add, delete, or replace a prefix
             + Inefficient routing protocols increase this value up to additional
             milliseconds
@@ -333,7 +333,7 @@ last matched prefix as our final prefix match.
         - By varying stride, can make prefix database smaller and optimize for
         memory
 2. Key points
-    * Every node can have a different number of btis to be explored
+    * Every node can have a different number of bits to be explored
     * The optimizations to the stride length for each node are all done to save
     trie memory and the least memory accesses
     * An optimum variable stride is selected by using dynamic programming

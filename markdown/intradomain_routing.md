@@ -21,7 +21,7 @@
     * Forwarding: Transferring a packet from an incoming link to an outgoing
     link within a single router
     * Routing: How routers work together using protocols to determine good paths
-    (or routes) over which the packest travel from the source to the destination
+    (or routes) over which the packets travel from the source to the destination
     node
     * Intradomain routing: Routers on the same administrative domain
     * Interdomain routing: Routers on different administrative domains
@@ -160,9 +160,9 @@ weight to infinity
 ## Linkstate Routing Protocol Example: OSPF
 
 1. Open Shortest Path First
-    * Routing protocl that uses a link-state routing algorithm to find the best
+    * Routing protocol that uses a link-state routing algorithm to find the best
     path between the source and destination router
-    * Introduced as an advancemene to the RIP protocol, operating in upper-tier
+    * Introduced as an advancement to the RIP protocol, operating in upper-tier
     ISPs
     * Link-state protocol that uses flooding of link-state information and a
     Dijkstra least-cost path algorithm

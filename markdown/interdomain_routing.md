@@ -260,13 +260,13 @@ provide reachability information and enforce routing policies
 policies to exclude routes entirely from further consideration.
     * True
 2. The LocalPref attribute is used to prefer routes learned through a specific
-AS over other ASes for outbound traffic.  
+AS over other ASes for outbound traffic.
 3. Assume that AS X learns of a route to the same destination a via AS Y and AS
 Z. If X prefers to route its traffic through Z due to peering or business, it
 can assign a higher LocalPref value to routes it learns from Z, and thus using
 LocalPref, AS X can control where traffic exits the AS.
 4. The MED (Multi-Exit Discriminator) value is used by ASes connected by
-multiple links to designate with of those links are preferred for inbound traffic.
+multiple links to designate which of those links are preferred for inbound traffic.
 5. Assume that AS X prefers routes advertised to AS Y to go through R1 as
 opposed to R2. For AS Y to be influenced to choose R1 to forward traffic to AS X,
 R1 must have a lower MED value, assuming that all other attributes are equal.
@@ -327,7 +327,7 @@ R1 must have a lower MED value, assuming that all other attributes are equal.
 4. One of the reasons why networks choose to peer at IXPs is because critical
 players in today’s Internet ecosystem often “incentivize” other networks to
 connect at IXPs.
-    * 
+    * True
 5. Private peering PIs do not use the IXP’s public peering infrastructure.
     * True
 6. IXPs users may use route servers for an additional cost.

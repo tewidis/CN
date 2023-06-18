@@ -64,7 +64,7 @@ design choices and principles of the Internet architecture
     designed and developed in accordance with the specific environment and user
     requirements of that network
     * Led researchers to develop a new version of the NCP protocol which would
-    eventually be called teh Transmission Control Protocol/Internet Protocol
+    eventually be called the Transmission Control Protocol/Internet Protocol
     (TCP/IP)
         - TCP was used for service features such as flow control and recovery
         from lost packets
@@ -278,7 +278,7 @@ are replaced often
     so it was able to grow without competing or being threatened by the telephone
     network
         - FTP, e-mail, Telnet
-    * As it grew, numerous powerful application relied on it
+    * As it grew, numerous powerful applications relied on it
     * Because TCP/IP, UDP, and IPv4 have so many things depending on them, they
     are difficult to replace
     * EvoArch suggests that even if new architectures do not have the shape of

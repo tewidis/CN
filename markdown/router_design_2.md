@@ -258,7 +258,7 @@
     a rate R)
     * Problem: Need one queue per flow
     * Use a modified version of the token bucket shaper to maintain one queue
-    caled token bucket policing
+    called token bucket policing
         - If a packet arrives and there are no tokens in the bucket, it is
         dropped
 
