@@ -531,7 +531,7 @@ approach for packet classification with a trie?
 17. What is a token bucket shaping?
     * Token bucket shaping limits the burstiness of a flow by:
         - Limiting the average rate
-        - Limiting the maximum bust size
+        - Limiting the maximum burst size
 18. In traffic scheduling, what is the difference between policing and shaping?
     * Policing: When the traffic reaches the maximum configured rate, excess
     traffic is dropped, or the packet's setting or "marking" is changed
