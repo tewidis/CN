@@ -243,7 +243,7 @@ replaced with a previous packet.
 ## Image Compression
 
 1. JPEG Compression
-    * Transform image from RGC to color components (chrominance or Cb, Cr) and
+    * Transform image from RGB to color components (chrominance or Cb, Cr) and
     brightness (luminance or Y)
     * Operate on Cb, Cr, and Y independently
         - Divide the image into 8x8 blocks

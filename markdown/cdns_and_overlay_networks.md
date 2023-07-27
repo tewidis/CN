@@ -145,7 +145,7 @@
     * ExampleMovies pays ExampleCDN to distribute their content
         - User visits examplemovies.com and navigates to Star Wars page
         - Users clicks the link http://video.examplemovies.com/R2D2C3PO37 and
-        user's host ssends a DNS query for the domain video.examplemovies.com
+        user's host sends a DNS query for the domain video.examplemovies.com
         - DNS query goes to the user's local DNS server (LDNS)
             + DNS server issues an iterative DNS query for "video" to the
             authoritative DNS server for examplemovies.com, which sends back a
@@ -197,9 +197,9 @@
         conditions between all client-cluster pairs
 2. Distributed System for Performance Metrics
     * Coarse-grained global layer operates at larger time scales (minutes)
-        - Gloabl view of client quality measurements
+        - Global view of client quality measurements
         - Builds a data-driven prediction model of video quality
-    * Fine-grained per-client decision layer that operates the the millisecond
+    * Fine-grained per-client decision layer that operates at the millisecond
     time scale
         - Makes actual decisions upon a client request
         - Based on latest (but possibly stale) pre-computed global model and

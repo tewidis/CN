@@ -292,7 +292,7 @@ in when it receives new routing information?
     * Configure: Used to program the parser
         - Specify header fields to be processed in each match+action stage and
         define the order of the stages
-    * Populate: Entries in the match+action tabels specified during configuration
+    * Populate: Entries in the match+action tables specified during configuration
     may be altered using the populate operations
         - Allows addition and deletion of the entries in the tables
 

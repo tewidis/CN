@@ -16,7 +16,7 @@
 
 1. What is DNS Censorship?
     * Large scale network traffic filtering strategy opted by a network to
-    enforce control and censhorship over Internet infrastructure to suppress
+    enforce control and censorship over Internet infrastructure to suppress
     material which they deem as objectionable
         - Great Firewall of China is a firewall that uses various techniques to
         censor China's Internet traffic and block access to foreign websites
@@ -25,7 +25,7 @@
     name is blocked
     * Several studies conducted to deduce the functionality of the system
     * Properties of GFW
-        - Locality of GFW Nodes: Unclea where GFW nodes are present only at the
+        - Locality of GFW Nodes: Unclear whether GFW nodes are present only at the
         edge ISPs or whether they are also present in non-bordering Chinese ASes
             + Majoring view is present at the edge
         - Centralized management: Blocklists obtained from two distinct GFW
@@ -78,6 +78,7 @@
         - No overblocking: Since there is an extra layer of hostname translation,
         access to specific hostnames can be blocked versus blanket IP address
         blocking
+    * Weaknesses
         - Blocks the entire domain; not possible to allow email contact while
         blocking the website
 3. Content Inspection

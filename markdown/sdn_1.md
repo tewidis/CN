@@ -230,7 +230,7 @@ publicly available, which speeds up innovation in the field.
 
 ## The SDN Architecture
 
-1. Components of and SDN network
+1. Components of an SDN network
     * SDN-controlled network elements
         - Called the infrastructure layer
         - Responsible for forwarding of traffic in a network based on the rules

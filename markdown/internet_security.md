@@ -140,9 +140,9 @@ increased responsiveness and availability.
             different patterns from legitimate ones
         - Operational phase: Given an unknown AS, it then calculates the features
         for this AS
-                + Uses the model to assign a reputation score to the AS
-                + Systems with low reputation scores for several days in a row
-                are identified as malicious
+            + Uses the model to assign a reputation score to the AS
+            + Systems with low reputation scores for several days in a row
+            are identified as malicious
     * Uses supervised learning to capture the known behaviors and patterns with
     a trained model
 
@@ -405,7 +405,7 @@ Amplification attack?
         - Possibility of decreased performance
 2. ACL Filters
     * Access Control List filters are deployed by ISPs or IXPs at their AS
-    broder routers to filter out unwanted traffic
+    border routers to filter out unwanted traffic
     * Effective when the hardware is homogenous and the deployment of the filters
     can be automated
     * Limitations
